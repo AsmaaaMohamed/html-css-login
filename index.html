@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+    <h2 text>Sign In</h2>
+        <form>
+          <div class='form-group'>
+            <label htmlFor='email'>Email</label>
+            <div class="input-container">
+              <input type='email' name='email' placeholder="Enter your Email"/>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </div>
+          <div className='form-group'>
+            <label htmlFor='password'>Password</label>
+            <div class="input-container">
+              <input type='password' name='password'  placeholder="Enter your Password"/>
+              <i class="fa-solid fa-key"></i>
+            </div>
+          </div>
+          <div class='form-group'>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <div class='form-group checkbox'>
+            <input type='checkbox'/> Remember me
+          </div>
+          <button type='submit'> Login</button>
+        </form>
+        <div class="form-footer">
+            <p class="or">- OR -</p>
+            <p>Sign In With</p>
+            <div class="social-links">
+              <a href="#" class="facebook social"><img src="/assets/images/facebook.png" width="11" height=""/></a>
+              <a href="#" class="google social"><img src="/assets/images/google.png" width="20"/></a>
+            </div>
+          <p class="signup">Don't Have an Account? <a href="#">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>
